@@ -15,7 +15,8 @@ class Solution:
 
     def romanToInt(self, s: str) -> int:
         ls = list(s)
-        return ls
+        print(ls)
+        return 0
 
 
 if __name__ == '__main__':
