@@ -11,15 +11,23 @@
 
 
 class Solution:
-    _dict_roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-
     def romanToInt(self, s: str) -> int:
-        ls = list(s)
-        print(ls)
-        return 0
+        dict_roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000, 'IV': 4, 'IX': 9, 'XL': 40,
+                      'XC': 90, 'CD': 400, 'CM': 900}
+        sums = 0
+        index = 0
+        while index < len(s):
+            temp = s[index:index + 2]
+            if temp in dict_roman:
+                index += 2
+            else:
+                temp = s[index]
+                index += 1
+            sums += dict_roman[temp]
+        return sums
 
 
 if __name__ == '__main__':
-    test_s = 'III'
+    test_s = 'MCMXCIV'
     ret = Solution().romanToInt(test_s)
     print(ret)
