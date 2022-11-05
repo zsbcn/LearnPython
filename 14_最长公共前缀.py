@@ -59,7 +59,6 @@ class Solution:
         strs = set(strs)
         index = 0
         for index, value in enumerate(zip(*strs)):
-            print(index, value)
             if len(set(value)) != 1:
                 break
             else:
@@ -68,7 +67,6 @@ class Solution:
 
 
 if __name__ == '__main__':
-    # test_strs = ["flower", "flawer", "flvwer", "flower"]
     test_strs = ["a"]
     ret = Solution().longestCommonPrefix_v02(test_strs)
     print(ret)
