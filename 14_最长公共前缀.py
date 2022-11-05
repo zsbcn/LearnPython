@@ -14,7 +14,7 @@ from typing import List
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         """
-        最长公共前缀(v0.1)
+        最长公共前缀(v0.0)
         :param strs: 字符串列表
         :return: 最长的公共前缀，若无返回空字符串
         """
@@ -37,11 +37,11 @@ class Solution:
 
     def longestCommonPrefix_v01(self, strs: List[str]) -> str:
         """
-        最长公共前缀(v0.2)
+        最长公共前缀(v0.1)
         :param strs: 字符串列表
         :return: 最长的公共前缀，若无返回空字符串
         """
-        strs = list(set(strs))
+        strs = set(strs)
         out_str = ''
         for i in zip(*strs):
             if len(set(i)) != 1:
@@ -50,8 +50,25 @@ class Solution:
                 out_str = f'{out_str}{i[0]}'
         return out_str
 
+    def longestCommonPrefix_v02(self, strs: List[str]) -> str:
+        """
+        最长公共前缀(v0.2)
+        :param strs: 字符串列表
+        :return: 最长的公共前缀，若无返回空字符串
+        """
+        strs = set(strs)
+        index = 0
+        for index, value in enumerate(zip(*strs)):
+            print(index, value)
+            if len(set(value)) != 1:
+                break
+            else:
+                index += 1
+        return strs.pop()[:index]
+
 
 if __name__ == '__main__':
-    test_strs = ["flower", "flawer", "flvwer", "flower"]
-    ret = Solution().longestCommonPrefix_v01(test_strs)
+    # test_strs = ["flower", "flawer", "flvwer", "flower"]
+    test_strs = ["a"]
+    ret = Solution().longestCommonPrefix_v02(test_strs)
     print(ret)
