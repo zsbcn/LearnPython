@@ -13,6 +13,11 @@ from typing import List
 
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
+        """
+        最长公共前缀
+        :param strs: 字符串列表
+        :return: 最长的公共前缀，若无返回空字符串
+        """
         strs = list(set(strs))
         out_str = strs[-1]
         for i in strs:
