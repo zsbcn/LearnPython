@@ -5,6 +5,8 @@ name = "tsinghua"
 
 [packages]
 jupyter = "*"
+requests = "*"
+lxml = "*"
 
 [dev-packages]
 
