@@ -6,5 +6,7 @@ https://leetcode.cn/problems/palindrome-number/
 https://leetcode.cn/problems/roman-to-integer/
 ## 第14题 最长公共前缀
 https://leetcode.cn/problems/longest-common-prefix/
+## 第20题 有效的括号
+https://leetcode.cn/problems/valid-parentheses/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/
