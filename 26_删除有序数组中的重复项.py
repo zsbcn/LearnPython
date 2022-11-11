@@ -13,6 +13,11 @@ from typing import List
 
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        """
+        删除有序数组中的重复项(v0.0)
+        :param nums: 输入有序数组
+        :return: 返回新数组长度
+        """
         if not nums:
             return 0
         length = 0
@@ -20,10 +25,10 @@ class Solution:
             if nums[length] != nums[i]:
                 nums[length + 1] = nums[i]
                 length += 1
-        return length+1
+        return length + 1
 
 
 if __name__ == '__main__':
-    test_nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    test_nums = [1, 1, 2]
     ret = Solution().removeDuplicates(test_nums)
     print(ret)
