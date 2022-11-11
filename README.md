@@ -10,5 +10,7 @@ https://leetcode.cn/problems/longest-common-prefix/
 https://leetcode.cn/problems/valid-parentheses/
 ## 第26题 删除有序数组中的重复项
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
+## 第27题 移除元素
+https://leetcode.cn/problems/remove-element/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/

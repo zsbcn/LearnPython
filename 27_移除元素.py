@@ -14,7 +14,7 @@ from typing import List
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         """
-        移除元素
+        移除元素(v0.0)
         :param nums: 输入数组
         :param val: 待删除的数字
         :return: 剩余数组长度
