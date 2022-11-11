@@ -56,6 +56,3 @@ if __name__ == '__main__':
     test_s = "(])"
     ret = Solution().isValid_01(test_s)
     print(ret)
-    print(ord('('), ord(')'))
-    print(ord('['), ord(']'))
-    print(ord('{'), ord('}'))
