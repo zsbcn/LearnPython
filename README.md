@@ -8,5 +8,7 @@ https://leetcode.cn/problems/roman-to-integer/
 https://leetcode.cn/problems/longest-common-prefix/
 ## 第20题 有效的括号
 https://leetcode.cn/problems/valid-parentheses/
+## 第26题 删除有序数组中的重复项
+https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/
