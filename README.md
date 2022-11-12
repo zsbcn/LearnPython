@@ -12,5 +12,7 @@ https://leetcode.cn/problems/valid-parentheses/
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 ## 第27题 移除元素
 https://leetcode.cn/problems/remove-element/
+## 第35题 搜索插入位置
+https://leetcode.cn/problems/search-insert-position/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/
