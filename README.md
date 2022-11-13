@@ -14,5 +14,9 @@ https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
 https://leetcode.cn/problems/remove-element/
 ## 第35题 搜索插入位置
 https://leetcode.cn/problems/search-insert-position/
+## 第58题 最后一个单词的长度
+https://leetcode.cn/problems/length-of-last-word/
+## 第66题 加一
+https://leetcode.cn/problems/plus-one/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/
