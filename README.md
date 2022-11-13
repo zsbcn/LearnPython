@@ -18,5 +18,7 @@ https://leetcode.cn/problems/search-insert-position/
 https://leetcode.cn/problems/length-of-last-word/
 ## 第66题 加一
 https://leetcode.cn/problems/plus-one/
+## 第67题 二进制求和
+https://leetcode.cn/problems/add-binary/submissions/
 ## 第2169题 得到0的操作数
 https://leetcode.cn/problems/count-operations-to-obtain-zero/
