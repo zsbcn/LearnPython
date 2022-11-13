@@ -12,8 +12,15 @@
 
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
-        pass
+        """
+        最后一个单词的长度
+        :param s: 若干单词和空格组成的字符串
+        :return: 最后一个单词的长度
+        """
+        return len(s.strip().split()[-1])
 
 
 if __name__ == '__main__':
-    pass
+    test_s = "Hello World"
+    ret = Solution().lengthOfLastWord(test_s)
+    print(ret)
